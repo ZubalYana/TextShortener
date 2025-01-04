@@ -16,10 +16,10 @@ function App() {
   return (
     <>
       <h3>Enter text to shorten:</h3>
+      <div className="textareaAndBtnCon">
       <textarea id="textToShorten"></textarea>
       <button id="shortenBtn" onClick={shortenText}>Shorten</button>
-      <br />
-      <br />
+      </div>
       <h3>Shortened text:</h3>
       <textarea id="shortenedText" readOnly></textarea>
     </>
